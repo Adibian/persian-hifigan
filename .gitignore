@@ -1,7 +1,11 @@
 /raw_data/**
+!/raw_data
 /data/**
+!/data
 /dump/**
+!/dump
 /exp/**
+!/exp
 /script/multi_speaker_data
 /script/single_speaker_data
 
