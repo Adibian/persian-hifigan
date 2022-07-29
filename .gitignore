@@ -2,8 +2,6 @@ raw_data/*
 data/*
 dump/*
 exp/*
-script/multi_speaker_data
-script/single_speaker_data
 
 !raw_data/.gitkeep
 !data/.gitkeep
