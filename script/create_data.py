@@ -16,6 +16,7 @@ def main():
     os.makedirs('../raw_data/', exist_ok=True)
     uttr_num = {}
     for name, group in grouped:
+        print("reading file " + str(name))
         wav_path = os.path.join(data_path, 'wav', name + '.wav')
         audio = AudioSegment.from_wav(wav_path)
         for index, row in group.iterrows():
